@@ -1,16 +1,26 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro Basics</title>
+		<title>Uriel León</title>
+		<meta name="description" content="Uriel León Portfolio" />
+		<meta name="keywords" content="UrielLeon, Uriel, León, Uriel León, Portfolio" />
+		<meta name="author" content="Uriel León"/>
+		<meta name="googlebot" content="index, follow"/>
 	</head>
 	<body>
 		<slot />
 	</body>
 </html>
+
+<style is:global>
+	@import '../styles/global.css';
+	@import '@fontsource-variable/onest';
+
+	font-family: 'Onest Variable', sans-serif;
+</style>
 
 <style>
 	html,
